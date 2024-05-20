@@ -1,5 +1,0 @@
-CREATE PROCEDURE Proc_Name
-AS BEGIN 
-END
-
-EXEC Procedure_Name 
