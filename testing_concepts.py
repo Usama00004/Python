@@ -26,3 +26,10 @@ print(int(-3.99))
 print(float())
 print(float("3.14"))
 
+###########
+
+a = 10
+b = a
+print("Here")
+print(a is b)
+
