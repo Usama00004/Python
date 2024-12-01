@@ -6,6 +6,7 @@ class Array:
     def add(self, value):
         """Add an element to the end of the array."""
         self.array.append(value)
+        return self.array
 
     def get(self, index):
         """Get the value at a specific index."""
