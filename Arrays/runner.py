@@ -3,12 +3,10 @@ from array import Array, add_element, remove_element, display_arr
 if __name__ == "__main__":
     # Initialize the Array
     arr = Array()
-
     while True:
         print("\nWelcome")
         print(" To Add Element Press 1 \n To Remove Element Press 2 \n To Display Array Press 3 \n To Exit Press 4")
         user_input = input("Please Enter your Option: ")
-
         try:
             option = int(user_input)
             if option == 1:
