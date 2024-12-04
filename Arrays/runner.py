@@ -4,7 +4,7 @@ if __name__ == "__main__":
     # Initialize the Array
     arr = Array()
     while True:
-        print("\nWelcome")
+        print("\nWelcome To Array")
         print(" To Add Element Press 1 \n To Remove Element Press 2 \n To Display Array Press 3 \n To Exit Press 4")
         user_input = input("Please Enter your Option: ")
         try:
