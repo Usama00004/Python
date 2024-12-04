@@ -36,5 +36,24 @@ class Stack:
         """Display the current stack"""
         print("Current Stack:", self.stack)
 
+    def sort_stack(self):
+        """Sort a stack using one additional stack"""
+        sortedStack = Stack()
+
+        while not self.stack.is_empty():
+            # Pop the top element from the input stack
+            temp = self.stack.pop()
+
+            # Move elements from sortedStack back to inputStack if they are greater than temp
+            while not sortedStack.is_empty() and sortedStack.peek() > temp:
+                self.stack.push(sortedStack.pop())
+
+            # Push temp onto the sortedStack
+            sortedStack.push(temp)
+
+        # Return the sorted stack
+        return sortedStack
+
+
 
 
