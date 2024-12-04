@@ -37,15 +37,4 @@ class Stack:
         print("Current Stack:", self.stack)
 
 
-# Example Usage
-if __name__ == "__main__":
-    stack = Stack()
-    stack.push(10)
-    stack.push(20)
-    stack.push(30)
-    stack.display()
-    print(f"Top Element: {stack.peek()}")
-    stack.pop()
-    stack.display()
-    print(f"Is Stack Empty? {stack.is_empty()}")
-    print(f"Stack Size: {stack.size()}")
+
