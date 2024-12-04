@@ -35,24 +35,40 @@ class Stack:
     def display(self):
         """Display the current stack"""
         print("Current Stack:", self.stack)
+    
+    def __str__(self):
+        """Return a user-friendly string representation of the stack"""
+        return f"Current Stack: {self.stack}"    
 
     def sort_stack(self):
         """Sort a stack using one additional stack"""
-        sortedStack = Stack()
+        print("Sorting the stack...")
+        sorted_stack = Stack()  # Temporary stack for sorting
 
-        while not self.stack.is_empty():
-            # Pop the top element from the input stack
-            temp = self.stack.pop()
+        # Step 1: Sort elements using sorted_stack
+        while not self.is_empty():
+            temp = self.pop()
+            print(f"Popped: {temp} from self")
 
-            # Move elements from sortedStack back to inputStack if they are greater than temp
-            while not sortedStack.is_empty() and sortedStack.peek() > temp:
-                self.stack.push(sortedStack.pop())
+            while not sorted_stack.is_empty() and sorted_stack.peek() > temp:
+                moved_item = sorted_stack.pop()
+                print(f"Moved {moved_item} back to self")
+                self.push(moved_item)
 
-            # Push temp onto the sortedStack
-            sortedStack.push(temp)
+            sorted_stack.push(temp)
+            # print(f"Pushed: {temp} to sorted_stack")
+            # print(sorted_stack)
 
-        # Return the sorted stack
-        return sortedStack
+        # Step 2: Move elements back to the original stack
+        while not sorted_stack.is_empty():
+            moved_item = sorted_stack.pop()
+            self.push(moved_item)
+            print(self)
+
+
+ 
+       
+        
 
 
 

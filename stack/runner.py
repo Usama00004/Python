@@ -26,8 +26,8 @@ if __name__ == "__main__":
             elif option == 4:
                 print(f"Current length of Stack : {stack.size()}")
             elif option == 5:
-                sortedStack = stack.sort_stack()    
-                print("Sorted Stack:", sortedStack)   
+                print("1st Check")
+                sortedStack = stack.sort_stack()
             elif option == 6:
                 print("Exiting program. Goodbye!")
                 break
