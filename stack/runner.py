@@ -1,4 +1,20 @@
 from stack import Stack
+# Question: Given a string containing parentheses, write a function to check if the parentheses are balanced
+# Question: Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+# Question: Given an unsorted stack, sort the stack using only one additional stack. You cannot use any other data structures.
+def sort_stack(inputStack):
+    sortedStack = []
+    while inputStack:
+        # Pop the top element from the input stack
+        temp = inputStack.pop()
+        # Move elements from sortedStack back to inputStack if they are greater than temp
+        while sortedStack and sortedStack[-1] > temp:
+            inputStack.append(sortedStack.pop()) 
+        # Push temp onto the sortedStack
+        sortedStack.append(temp)
+    # At this point, sortedStack has the elements sorted in ascending order
+    return sortedStack
+
 
 if __name__ == "__main__":
     stack = Stack()
@@ -35,3 +51,9 @@ if __name__ == "__main__":
 
 
 
+
+
+
+    inputStack = [34, 3, 31, 98, 92, 23]
+    sortedStack = sort_stack(inputStack)
+    print("Sorted Stack:", sortedStack)
