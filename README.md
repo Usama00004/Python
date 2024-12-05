@@ -2,8 +2,6 @@
 
 This repository contains a collection of Python scripts and examples focused on various programming concepts and libraries, including Abstract Data Types (ADTs), Python Collections, NumPy, and Object-Oriented Programming (OOP).
 
----
-
 ## 📁 Repository Structure
 
 ### **1. Abstract Data Types (ADTs)**
@@ -32,8 +30,6 @@ This repository contains a collection of Python scripts and examples focused on 
   - Encapsulation
   - Abstract Classes and Interfaces
   - Real-world use cases of design patterns
-
----
 
 ## Getting Started
 
