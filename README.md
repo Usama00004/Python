@@ -35,7 +35,7 @@ This repository contains a collection of Python scripts and examples focused on 
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### **1. Clone the Repository**
 ```bash
