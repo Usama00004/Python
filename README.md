@@ -1,4 +1,4 @@
-# Python Repository by Usama
+# Python Repository
 
 This repository contains a collection of Python scripts and examples focused on various programming concepts and libraries, including Abstract Data Types (ADTs), Python Collections, NumPy, and Object-Oriented Programming (OOP).
 
