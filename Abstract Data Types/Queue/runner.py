@@ -1,3 +1,5 @@
+from queue import Queue
+
 def queue_runner():
     """Runner function for interacting with the Queue"""
     queue = Queue()
