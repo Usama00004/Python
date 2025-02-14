@@ -1,0 +1,103 @@
+{
+    "company": "TechCorp",
+    "employees": [
+        {
+            "id": 1,
+            "name": "Alice Johnson",
+            "age": 34,
+            "department": "Engineering",
+            "skills": ["Python", "Machine Learning", "Data Analysis"],
+            "projects": [
+                {"name": "AI Research", "budget": 500000, "status": "Ongoing"},
+                {"name": "Cloud Migration", "budget": 200000, "status": "Completed"}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bob Smith",
+            "age": 29,
+            "department": "Marketing",
+            "skills": ["SEO", "Content Strategy", "Brand Management"],
+            "projects": [
+                {"name": "Rebranding", "budget": 150000, "status": "Ongoing"}
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Charlie Davis",
+            "age": 40,
+            "department": "Finance",
+            "skills": ["Accounting", "Financial Analysis", "Risk Management"],
+            "projects": [
+                {"name": "Budget Planning", "budget": 300000, "status": "Ongoing"}
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Diana Lee",
+            "age": 31,
+            "department": "HR",
+            "skills": ["Recruitment", "Employee Relations", "Training"],
+            "projects": [
+                {"name": "Talent Acquisition", "budget": 120000, "status": "Ongoing"}
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Edward Kim",
+            "age": 37,
+            "department": "IT",
+            "skills": ["Cybersecurity", "Network Administration", "Cloud Computing"],
+            "projects": [
+                {"name": "Security Upgrade", "budget": 450000, "status": "Ongoing"}
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Fiona Wright",
+            "age": 28,
+            "department": "Engineering",
+            "skills": ["Java", "Microservices", "DevOps"],
+            "projects": [
+                {"name": "Backend Optimization", "budget": 300000, "status": "Completed"}
+            ]
+        },
+        {
+            "id": 7,
+            "name": "George Hall",
+            "age": 35,
+            "department": "Sales",
+            "skills": ["Negotiation", "CRM", "Lead Generation"],
+            "projects": [
+                {"name": "Sales Expansion", "budget": 200000, "status": "Ongoing"}
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Helen Carter",
+            "age": 32,
+            "department": "Engineering",
+            "skills": ["C++", "Embedded Systems", "AI"],
+            "projects": [
+                {"name": "IoT Development", "budget": 600000, "status": "Ongoing"}
+            ]
+        }
+    ],
+    "financials": {
+        "revenue": 5000000,
+        "expenses": {
+            "salaries": 2000000,
+            "operations": 1000000,
+            "marketing": 500000
+        }
+    },
+    "headquarters": {
+        "city": "Berlin",
+        "country": "Germany",
+        "contacts": {
+            "email": "contact@techcorp.com",
+            "phone": "+49 123 4567 890"
+        }
+    }
+}
+
