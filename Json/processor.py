@@ -13,7 +13,7 @@ elif os.path.getsize(json_file_path) == 0:
 else:
     try:
         # Open and read JSON file
-        with open(json_file_path, "r", encoding="utf-8") as file:
+        with open(json_file_path,"r",encoding="utf-8") as file:
             json_data = file.read()  # Read the file content
         
         # Parse the JSON content
@@ -35,7 +35,7 @@ else:
             print()
 
         # Traverse Financials
-        print("Financials:")
+        print("Financials:") 
         print(f"  Revenue: ${data['financials']['revenue']}")
         print(f"  Expenses:")
         for category, amount in data["financials"]["expenses"].items():
