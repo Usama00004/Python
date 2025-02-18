@@ -42,7 +42,7 @@ else:
             print(f"    {category.capitalize()}: ${amount}")
 
         # Traverse Headquarters Information
-        print("\nHeadquarters:")
+        print("\nHeadquarters:") 
         hq = data["headquarters"]
         print(f"  Location: {hq['city']}, {hq['country']}")
         print(f"  Contact: {hq['contacts']['email']} | {hq['contacts']['phone']}")
