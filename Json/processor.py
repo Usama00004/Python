@@ -49,5 +49,5 @@ else:
 
     except json.JSONDecodeError as e:
         print("Invalid JSON:", e)
-    except Exception as e:
+    except Exception as e: 
         print(f"Unexpected error: {e}")
